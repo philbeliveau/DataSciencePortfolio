@@ -4,12 +4,12 @@ theme: "raditian-free-hugo-theme"
 languageCode: "en-us"
 
 params:
-  logo: "img/avatar.jpg"
-  description: "AI Research | Forecasting | Decision Modeling"
+  logo: "img/moi.png"
+  description: "AI Researcher | Time Series Modeling | Generative Data"
   author: "Philippe Béliveau"
-  linkedin: "https://www.linkedin.com/in/philippe-beliveau/"
-  location: "Montreal, Canada"
   email: "philbeliv@gmail.com"
+  location: "Montreal, Canada"
+  linkedin: "https://www.linkedin.com/in/philippe-beliveau/"
 
 menu:
   main:

@@ -1,6 +1,15 @@
 about:
   enable: true
   title: "Philippe Béliveau"
-  subtitle: "Data Science | Forecasting | AI Research"
+  subtitle: "Data science | AI Research | Time Series"
+  image: "img/moi.png"
   content: |
     I'm a data scientist and AI researcher with a focus on generative models, time series prediction, and applied AI in finance and operations.
+
+projects:
+  enable: true
+  title: "Projects"
+  items:
+    - title: "Synthetic Relational GANs"
+      image: "img/gan_project.jpg"
+      link: "/project/synthetic-relational-gan/"
