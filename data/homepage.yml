@@ -1,0 +1,6 @@
+about:
+  enable: true
+  title: "Philippe Béliveau"
+  subtitle: "Data Science | Forecasting | AI Research"
+  content: |
+    I'm a data scientist and AI researcher with a focus on generative models, time series prediction, and applied AI in finance and operations.

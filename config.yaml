@@ -1,0 +1,24 @@
+title: "Philippe Béliveau"
+baseurl: "/"
+theme: "raditian-free-hugo-theme"
+languageCode: "en-us"
+
+params:
+  logo: "img/avatar.jpg"
+  description: "AI Research | Forecasting | Decision Modeling"
+  author: "Philippe Béliveau"
+  linkedin: "https://www.linkedin.com/in/philippe-beliveau/"
+  location: "Montreal, Canada"
+  email: "philbeliv@gmail.com"
+
+menu:
+  main:
+    - name: "About"
+      url: "/about/"
+      weight: 1
+    - name: "Projects"
+      url: "/project/"
+      weight: 2
+    - name: "Resume"
+      url: "/resume/"
+      weight: 3
