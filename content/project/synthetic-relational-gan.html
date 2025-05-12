@@ -1,0 +1,37 @@
+---
+title: "Time Series Modeling for Synthetic Relational Database Generation"
+date: 2025-01-01
+output: html_document
+categories: ["Generative Models", "Time Series", "AI Research"]
+---
+
+
+
+<p>This research project explores <strong>synthetic data generation</strong> using advanced variants of GANs applied to <strong>relational-sequential time series data</strong>, extending the <strong>Row-Conditional Tabular GAN (RCTGAN)</strong>.</p>
+<p>We designed three architectures:</p>
+<ul>
+<li><strong>Sequential RCTGAN</strong> using LSTMs to capture temporal dynamics</li>
+<li><strong>Mini-batch GAN</strong> inspired by DoppelGANger to improve long-sequence realism</li>
+<li><strong>FFT-Enhanced GAN</strong> leveraging frequency-domain signals to enrich temporal dependencies</li>
+</ul>
+<p>We applied our models to the Rossmann dataset, evaluated autocorrelation, cross-correlation, and parent-child metadata consistency, and achieved improvements over baseline CTGAN models in preserving long-term structure.</p>
+<div id="read-the-full-report" class="section level3">
+<h3>📄 Read the Full Report</h3>
+<p>👉 <a href="/files/Philippe_Beliveau_Croesus_Projet.pdf">Download the PDF</a></p>
+</div>
+<div id="key-technologies" class="section level3">
+<h3>🧠 Key Technologies</h3>
+<ul>
+<li>LSTM / GRU Architectures<br />
+</li>
+<li>Mini-batch conditioning (DoppelGANger)<br />
+</li>
+<li>Fast Fourier Transform (FFT) for sequence enrichment<br />
+</li>
+<li>Evaluation: MAE on autocorrelations, KS statistics, visual + numerical metrics</li>
+</ul>
+<hr />
+<p><strong>Supervisors:</strong><br />
+<em>Maryam Daryalal, HEC Montréal</em><br />
+<em>Yazid Attabi, Croesus Lab</em></p>
+</div>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Philippe Béliveau</title>
+    <link>/project/</link>
+    <description>Recent content in Projects on Philippe Béliveau</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI Career Path Platform</title>
+      <link>/project/career-ai/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>/project/career-ai/</guid>
+      <description>&lt;p&gt;A platform built to recommend and visualize youth career paths using graph neural networks and language models, hosted on AWS.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Technologies used:&lt;/strong&gt; Python, Next.js, AWS, Pinecone, Hugging Face, MLflow.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Time Series Modeling for Synthetic Relational Database Generation</title>
+      <link>/project/synthetic-relational-gan/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>/project/synthetic-relational-gan/</guid>
+      <description>&lt;p&gt;This research project explores &lt;strong&gt;synthetic data generation&lt;/strong&gt; using advanced variants of GANs applied to &lt;strong&gt;relational-sequential time series data&lt;/strong&gt;, extending the &lt;strong&gt;Row-Conditional Tabular GAN (RCTGAN)&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;We designed three architectures:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Sequential RCTGAN&lt;/strong&gt; using LSTMs to capture temporal dynamics&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Mini-batch GAN&lt;/strong&gt; inspired by DoppelGANger to improve long-sequence realism&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;FFT-Enhanced GAN&lt;/strong&gt; leveraging frequency-domain signals to enrich temporal dependencies&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;We applied our models to the Rossmann dataset, evaluated autocorrelation, cross-correlation, and parent-child metadata consistency, and achieved improvements over baseline CTGAN models in preserving long-term structure.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

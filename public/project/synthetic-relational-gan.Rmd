@@ -1,0 +1,34 @@
+---
+title: "Time Series Modeling for Synthetic Relational Database Generation"
+date: 2025-01-01
+output: html_document
+categories: ["Generative Models", "Time Series", "AI Research"]
+---
+
+This research project explores **synthetic data generation** using advanced variants of GANs applied to **relational-sequential time series data**, extending the **Row-Conditional Tabular GAN (RCTGAN)**.
+
+We designed three architectures:
+
+- **Sequential RCTGAN** using LSTMs to capture temporal dynamics
+- **Mini-batch GAN** inspired by DoppelGANger to improve long-sequence realism
+- **FFT-Enhanced GAN** leveraging frequency-domain signals to enrich temporal dependencies
+
+We applied our models to the Rossmann dataset, evaluated autocorrelation, cross-correlation, and parent-child metadata consistency, and achieved improvements over baseline CTGAN models in preserving long-term structure.
+
+### 📄 Read the Full Report
+
+👉 [Download the PDF](/files/Philippe_Beliveau_Croesus_Projet.pdf)
+
+### 🧠 Key Technologies
+
+- LSTM / GRU Architectures  
+- Mini-batch conditioning (DoppelGANger)  
+- Fast Fourier Transform (FFT) for sequence enrichment  
+- Evaluation: MAE on autocorrelations, KS statistics, visual + numerical metrics
+
+---
+
+**Supervisors:**  
+*Maryam Daryalal, HEC Montréal*  
+*Yazid Attabi, Croesus Lab*
+

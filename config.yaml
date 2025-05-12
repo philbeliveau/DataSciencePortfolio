@@ -1,10 +1,10 @@
 title: "Philippe Béliveau"
 baseurl: "/"
-theme: "raditian-free-hugo-theme"
+theme: "raditian-free-hugo-theme-data-science"
 languageCode: "en-us"
 
 params:
-  logo: 
+  logo:
     text1: "Philippe"
     text2: "Béliveau"
     image: "img/moi.png"
@@ -14,14 +14,37 @@ params:
   location: "Montreal, Canada"
   linkedin: "https://www.linkedin.com/in/philippe-beliveau/"
 
+  # 🔧 Add this to activate sections
+  sections:
+    - showcase
+    - about
+    - experience
+    - education
+    - testimonial
+    - contact
+
+  # 🔧 Optional: enable plugins if available in your theme
+  plugins:
+    css:
+      - URL: css/main.css
+      - URL: css/rad-icons.css
+      - URL: css/custom.css
+    js:
+      - URL: js/rad-animations.js
+      - URL: js/sticky-header.js
+      - URL: js/library/fontfaceobserver.js
+
 menu:
-  main:
-    - name: "About"
-      url: "/about/"
+  header:
+    - URL: '#about'
+      name: About
       weight: 1
-    - name: "Projects"
-      url: "/project/"
+    - URL: '#portfolio'
+      name: Projects
       weight: 2
-    - name: "Resume"
-      url: "/resume/"
+    - URL: '#resume'
+      name: Resume
       weight: 3
+    - URL: '#contact'
+      name: Contact
+      weight: 4
