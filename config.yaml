@@ -1,6 +1,6 @@
 title: "Philippe Béliveau"
 baseurl: "/"
-theme: "raditian-free-hugo-theme-data-science"
+theme: "raditian-free-hugo-theme"
 languageCode: "en-us"
 
 params:
