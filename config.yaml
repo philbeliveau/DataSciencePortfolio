@@ -4,7 +4,10 @@ theme: "raditian-free-hugo-theme"
 languageCode: "en-us"
 
 params:
-  logo: "img/moi.png"
+  logo:
+    image: "img/moi.png"
+    text1: "Philippe"
+    text2: "Béliveau"
   description: "AI Researcher | Time Series Modeling | Generative Data"
   author: "Philippe Béliveau"
   email: "philbeliv@gmail.com"
